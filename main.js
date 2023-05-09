@@ -5,6 +5,3 @@ import { setupCounter } from './counter.js'
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
-
-
-setupCounter(document.querySelector('#counter'))
