@@ -32,7 +32,7 @@ let mixer;
 // load the GLTF model
 const loader2 = new GLTFLoader();
 loader2.load(
-  'FotoGirando.glb', // the path to the GLTF file
+  '/models/FotoGirando.glb', // the path to the GLTF file
   (gltf2) => {
     // set the scale of the model
     gltf2.scene.scale.set(3.2, 3.2, 3.2);
